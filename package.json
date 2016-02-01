@@ -1,0 +1,20 @@
+{
+  "name": "not-a-blog",
+  "version": "1.0.0",
+  "description": "Not a blog engine",
+  "main": "index.js",
+  "scripts": {
+    "build": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jörg Henning <henning.joerg@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "handlebars": "^4.0.5",
+    "js-beautify": "^1.6.1",
+    "marked": "^0.3.5",
+    "moment": "^2.11.1",
+    "through": "^2.3.8",
+  }
+}
