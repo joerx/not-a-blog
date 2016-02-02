@@ -1,15 +1,15 @@
 # Not Writing a Blog Engine
 
 - Take a bunch of static md files and convert them to HTML
-- Why not Wordpress? - no user provided content, static is indefinitely more scalable
+- Why not Wordpress? - no dynamic/user provided content, static is a lot more scalable
 - Alternative - [Jekyll](https://jekyllrb.com/), used by gh-pages
-- Github backend covers versioning, online-editing with preview, contributions, even hosting
+- GitHub as backend covers versioning, online-editing with preview, contributions, even hosting
 - Comments? (maybe via Disqus)
-- Drawback: basically public domain, it's stupidly easy to clone
+- Drawback: basically public domain, it's stupidly easy to clone, no way to truly delete anything
 
 ## First Approaches
 
-- Plain node.js - fs.readDir(), async iterations/mappings, transformations, etc. - callback hell,
+- Plain node.js - `fs.readDir()`, async iterations/mappings, transformations, etc. - callback hell,
   spaghetti code
 - Promises - probably a lot more readable, still a lot of code, difficult to extend
 - Unsatisfactory, lets take a step back
