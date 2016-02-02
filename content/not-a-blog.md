@@ -79,3 +79,9 @@ function end() {
 
 - CI build via travis.yml
 - Push result to gh-pages
+
+## Takeaways
+
+- Gulp plugins are easy to write
+- Can be used to automate tasks beyond LESSing/SASSing/Babeling
+
