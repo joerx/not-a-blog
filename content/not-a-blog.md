@@ -84,4 +84,4 @@ function end() {
 
 - Gulp plugins are easy to write
 - Can be used to automate tasks beyond LESSing/SASSing/Babeling
-
+- Git(Hub) is not only useful for managing code
