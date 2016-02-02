@@ -2,16 +2,16 @@
 
 - Take a bunch of static md files and convert them to HTML
 - Why not Wordpress? - no user provided content, static is indefinitely more scalable
+- Alternative - [Jekyll](https://jekyllrb.com/), used by gh-pages
 - Github backend covers versioning, online-editing with preview, contributions, even hosting
 - Comments? (maybe via Disqus)
 - Drawback: basically public domain, it's stupidly easy to clone
-- Basically a gh-pages clone, but not directly depending on GH
 
 ## First Approaches
 
 - Plain node.js - fs.readDir(), async iterations/mappings, transformations, etc. - callback hell,
   spaghetti code
-- Promises - gets probably a lot more readable, still poorly structured code, hard to extend
+- Promises - probably a lot more readable, still a lot of code, difficult to extend
 - Unsatisfactory, lets take a step back
 
 ## Streams and Such
